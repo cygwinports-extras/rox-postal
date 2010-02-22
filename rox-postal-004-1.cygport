@@ -1,0 +1,8 @@
+ORIG_PN="Postal"
+inherit rox
+
+HOMEPAGE=
+SRC_URI="http://rox-postal.googlecode.com/files/${ORIG_PN}-${PV}.tgz"
+SRC_DIR=.
+
+ROX_APP=${ORIG_PN}
