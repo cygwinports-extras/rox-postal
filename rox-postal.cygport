@@ -1,0 +1,14 @@
+ORIG_PN="Postal"
+inherit rox
+
+NAME="rox-postal"
+VERSION=004
+RELEASE=2
+CATEGORY="ROX"
+SUMMARY="ROX mail checker"
+
+HOMEPAGE="http://code.google.com/p/rox-postal/"
+SRC_URI="http://rox-postal.googlecode.com/files/${ORIG_PN}-${PV}.tgz"
+SRC_DIR=.
+
+ROX_APP=${ORIG_PN}
